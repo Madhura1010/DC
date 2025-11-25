@@ -26,3 +26,16 @@ while True:
     print("Client connected:", addr)
     clients.append(client)
     threading.Thread(target=handle, args=(client,)).start()
+
+
+#Server started...
+#Client connected: ('127.0.0.1', 50124)
+#Client connected: ('127.0.0.1', 50126)
+#Received: hello
+#Received: hi everyone
+#Received: how are you? 
+
+
+
+
+
